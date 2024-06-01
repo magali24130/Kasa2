@@ -1,7 +1,7 @@
-import "./Banner.scss";
-import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
+import "./Banner.scss";
 export default function Banner() {
   const [aboutPage, setAboutPage] = useState(false);
 
@@ -10,9 +10,10 @@ export default function Banner() {
   useEffect(() => {
     if (location.pathname === "/about") {
       setAboutPage(true);
+    } else {
+      setAboutPage(false);
     }
-    // eslint-disable-next-line
-  }, []);
+  }, [location]);
 
   return (
     <section className={aboutPage ? "banner_about" : "banner"}>
