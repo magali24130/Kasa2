@@ -1,8 +1,8 @@
 import "./Home.scss";
-import Header from "../../components/header/Header";
-import Banner from "../../components/banner/Banner";
-import Gallery from "../../components/gallery/Gallery";
-import Footer from "../../components/footer/Footer";
+import Header from "../../Components/Header/Header";
+import Banner from "../../Components/Banner/Banner";
+import Gallery from "../../Components/Gallery/Gallery";
+import Footer from "../../Components/Footer/Footer";
 
 export default function Home() {
   return (

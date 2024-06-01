@@ -1,5 +1,5 @@
 import "./Collapse.scss";
-import arrow from "../../assets/arrow.png";
+import arrow from "../../Assets/arrow_back.png";
 import { useState } from "react";
 
 export default function Collapse({ title, content }) {

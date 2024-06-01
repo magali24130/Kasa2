@@ -1,8 +1,8 @@
-import "./about.scss";
-import Header from "../../components/header/Header";
-import Banner from "../../components/banner/Banner";
-import Collapse from "../../components/collapse/Collapse";
-import Footer from "../../components/footer/Footer";
+import "./About.scss";
+import Header from "../../Components/Header/Header";
+import Banner from "../../Components/Banner/Banner";
+import Collapse from "../../Components/Collapse/Collapse";
+import Footer from "../../Components/Footer/Footer";
 
 export default function About() {
   const aboutDatas = [

@@ -1,6 +1,6 @@
 import "./Carousel.scss";
-import ArrowRight from "../../assets/chevron_carousel_right.png";
-import ArrowLeft from "../../assets/chevron_carousel_left.png";
+import ArrowRight from "../../Assets/arrow_right.png";
+import ArrowLeft from "../../Assets/arrow_left.png";
 import { useState } from "react";
 
 export default function Slider({ imageSlider }) {

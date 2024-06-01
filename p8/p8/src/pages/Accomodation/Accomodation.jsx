@@ -1,14 +1,14 @@
-import "./accomodation.scss";
+import "./Accomodation.scss";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import datas from "../../data/data";
-import Header from "../../components/header/Header";
-import Slider from "../../components/carousel/Carousel";
-import Footer from "../../components/footer/Footer";
-import Collapse from "../../components/collapse/Collapse";
-import NotFound from "../notFound/NotFound";
-import Tag from "../../components/tag/Tag";
-import Rating from "../../components/rating/Rating";
+import datas from "../../Data/Data";
+import Header from "../../Components/Header/Header";
+import Slider from "../../Components/Carousel/Carousel";
+import Footer from "../../Components/Footer/Footer";
+import Collapse from "../../Components/Collapse/Collapse";
+import NotFound from "../NotFound/NotFound";
+import Tag from "../../Components/Tag/Tag";
+import Rating from "../../Components/Rating/Rating";
 
 export default function Accomodation() {
   const [imageSlider, setImageSlider] = useState([]);
