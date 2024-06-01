@@ -1,7 +1,7 @@
+import "./Banner.scss";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import "./Banner.scss";
 export default function Banner() {
   const [aboutPage, setAboutPage] = useState(false);
 

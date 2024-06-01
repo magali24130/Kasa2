@@ -1,5 +1,5 @@
 import "./Header.scss";
-import Logo from "../../Assets/Logo.png";
+import Logo from "../../Assets/logo.png";
 import Navbar from "../Navbar/Navbar";
 
 export default function Header() {
