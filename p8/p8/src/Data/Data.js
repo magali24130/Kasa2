@@ -341,7 +341,7 @@ const datas = [
       "TV",
       "Bouilloire",
     ],
-    tags: ["Marais", "République", "Studio", "Proche Métros", "Commerces"],
+    tags: ["Marais", "République", "Studio", "Proche Métro", "Commerces"],
   },
   {
     id: "af6d2d48",
